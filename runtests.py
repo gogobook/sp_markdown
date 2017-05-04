@@ -18,7 +18,7 @@ from django.test.runner import DiscoverRunner
 # else:
 #     # Run tests with tests settings
 # os.environ['DJANGO_SETTINGS_MODULE'] = 'base'
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "dev")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "test_settings")
 
 def log_warnings():
     logger = logging.getLogger('py.warnings')

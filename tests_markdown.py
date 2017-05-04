@@ -10,7 +10,7 @@ from django.utils import timezone
 import utils
 from sp_markdown import Markdown, quotify
 from django.conf import settings
-import base
+import test_settings
 
 now_fixed = timezone.now()
 
